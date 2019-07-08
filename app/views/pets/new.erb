@@ -13,6 +13,12 @@
     <input type="checkbox" name="owner_id" id="<%= owner.id %>" value="<%= owner.id %>"><%= owner.name %></input>
   <% end %>
   <br>
+
+  <!--
+  <%Owner.all.each do |owner|%>
+    <input type="checkbox" name="pet[owner_id]" id="<%= owner.name %>" value="<%=owner.id%>"><%=owner.name%></input>
+  <%end%>
+  -->
  
   <label>and/or, create a new owner:</label>
   <br>
